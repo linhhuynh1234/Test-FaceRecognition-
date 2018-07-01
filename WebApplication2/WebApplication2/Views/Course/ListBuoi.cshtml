@@ -1,0 +1,54 @@
+﻿    
+@model IEnumerable<WebApplication2.Models.BuoiHoc>
+@{
+    ViewBag.Title = "ListBuoi";
+    Layout = "~/Views/Shared/_1Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+
+            <!-- /.panel-heading -->
+            <!--  NewTable-->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Danh Sách Buổi Học</h4>
+                    @*<h6 class="card-subtitle">Data table example</h6>*@
+                    <div class="table-responsive m-t-40">
+                        <table id="myTable" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+
+                                   
+                                    <th>Buổi Thứ</th>
+                                    <th>Ngày Học</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                      
+                                        <td>
+                                            @*@Html.DisplayFor(modelItem => item.Buoi_thu)*@
+                                            <a href="~/Course/ListDiemDanh/@item.ID_BH"> @item.Buoi_thu</a>
+                                        </td>
+                                        <td>
+                                            @Convert.ToDateTime(item.NgayHoc).ToString("dd/MM/yyyy")
+                                        </td>
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!--  NewTable-->
+        </div>
+    </div>
+</div>
+

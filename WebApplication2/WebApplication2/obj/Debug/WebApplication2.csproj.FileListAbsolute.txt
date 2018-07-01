@@ -1,0 +1,637 @@
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\phamt\Desktop\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\WebApplication2.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\WebGrease.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+D:\SEP_occho\New folder (2)\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Desktop\sep\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\Đồ Án SEP\Update Sep  29,5\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Source\Repos\SEP2\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\SEP API 12.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\EPPlus.dll
+C:\Users\Kha Tran\Desktop\SEP 27.6.2018\WebApplication2\WebApplication2\bin\EPPlus.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\EPPlus.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\EPPlus.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Properties.Resources.resources
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+C:\Users\Kha Tran\Desktop\29.6\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\EPPlus.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\EPPlus.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Properties.Resources.resources
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\admin\Source\Repos\SEP\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\EPPlus.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\EPPlus.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Properties.Resources.resources
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\admin\Source\Repos\Test-FaceRecognition-\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

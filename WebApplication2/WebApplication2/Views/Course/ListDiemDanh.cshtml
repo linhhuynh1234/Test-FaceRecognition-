@@ -1,0 +1,132 @@
+﻿@using WebApplication2.Models
+@using WebApplication2.DAL
+@model IEnumerable<WebApplication2.Models.DiemDanh>
+@{
+    ViewBag.Title = "ListDiemDanh";
+    var date = (List<BuoiHoc>)ViewBag.Date;
+    Layout = "~/Views/Shared/_1Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            @*<div class="panel-heading">
+                  Các Khóa Học
+                </div>*@
+            <!-- /.panel-heading -->
+            <!--  NewTable-->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Danh Sách Điểm Danh Sinh Viên</h4>
+                    <div>
+                      
+                        <a href="@Url.Action("ExportToExcel","Course", new {idss =  Session["BH"].ToString() })">Export Excel</a>
+                       
+                    </div>
+                    <a href="~/Course/syncAttendanceAsync">
+                        <input type="submit" value="Sync Điểm Danh" style="height:35px" />
+                    </a>
+
+                    @*<h6 class="card-subtitle">Data table example</h6>*@
+                    <div class="table-responsive m-t-40">
+                        @{
+                                List<SelectListItem> listItems = new List<SelectListItem>();
+                                int n = date.Count;
+
+                                string textdate = "";
+                                int i = 1;
+                                foreach(var item in date)
+                                {
+
+                                    textdate = item.NgayHoc.ToString();
+                                    textdate = DateTime.Parse(textdate).ToString("dd/MM/yyyy");
+                                    listItems.Add(new SelectListItem
+                                    {
+                                        Text =  " (" + i.ToString() + ")"+ textdate,
+                                        Value = item.ID_BH.ToString()
+                                    //Text = "Session " + i.ToString(),
+                                    //Value = i.ToString()
+                                });
+                                i++;
+                            }
+                            i = 1;
+                        }
+
+                       
+
+@using (Html.BeginForm("edit", "Course", FormMethod.Post))
+{
+                    <div style="width:450px; height:30px">
+                        <div style="width:200px; float:left">
+                            @Html.DropDownList("Buoithu", listItems, string.Empty, new { @class = "form-control" })
+                        </div>
+                        <div style="width:200px;float:right">
+                            <input type="submit" value="Change" style="height:35px" />
+                        </div>
+                        </div>
+}
+
+                       
+                        <table id="myTable" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    @*<th>Tên Môn Học</th>*@
+                                    <th>MSSV</th>
+                                    <th>Họ</th>
+                                    <th>Tên</th>
+                                    @*<th>Ngày Học</th>*@
+                                    @*<th>Buổi Thứ</th>*@
+                                    <th>Trạng Thái</th>
+                                    @*<th></th>*@
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                      
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.MSSV)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.SinhVien.LastName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.SinhVien.FirstName)
+                                        </td>
+                                     
+                                        
+                                            @if (item.status == true)
+                                            {
+                                              <td style="text-align:center">
+                                                  
+                                                <a href="~/Course/Change/@item.ID">
+                                                  <img src="~/Content/images/p.png" style="width:30px;height:30px;" />
+                                                    </a>
+                                              </td>  
+                                            }
+                                            else
+                                            {
+                                                <td style="text-align:center">
+                                                    <a href="~/Course/Change/@item.ID">
+                                                        <img src="~/Content/images/f.png" style="width:30px;height:30px" />
+                                                        </a>
+</td>
+                                            }
+                                        @*<td>
+                                            @Html.ActionLink("Status","Change",new { id = item.ID})
+                                        </td>*@
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!--  NewTable-->
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WebApplication2.Models.KhoaHoc>
+
+@{
+    Layout = "~/Views/Shared/_1Layout.cshtml";
+    ViewBag.Title = "Danh Sách Lớp";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+           
+            @*<div class="panel-heading">
+              Các Khóa Học
+            </div>*@
+            <!-- /.panel-heading -->
+            <!--  NewTable-->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Khóa Học Đang Dạy</h4>
+                    <div class="table-responsive m-t-40">
+                      
+                        <table id="myTable" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Danh Sách ĐIểm Danh</th>
+                                    <th>Danh Sách Sinh Viên</th>
+                                    <th>Danh Sách Buổi Học</th>
+                                    @*<th>Ngày Bắt Đầu</th>
+                                    <th>Ngày Kết Thúc</th>*@
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    //try { var a = db.BuoiHocs.OrderByDescending(y => y.ID_BH).FirstOrDefault().ID_BH; }
+                                    //catch (Exception) { return RedirectToAction("Index", "Course"); }
+                                    //var a = db.BuoiHocs.OrderByDescending(y => y.ID_BH).FirstOrDefault().ID_BH;
+                                       <tr>
+                                            <td style="text-align : center">
+                                                <a href="~/Course/ListDiemDanh/@item.BuoiHocs.LastOrDefault(x=>x.MaKH==item.MaKH).ID_BH">
+                                                @Html.DisplayFor(modelItem => item.MaKH)</a>
+                                            </td>
+                                            <td style="text-align : center" >
+                                              
+                                                @*<a href="~/Course/DIEMDANH/@item.MaKH">*@
+                                                    <a href="~/Course/ListStudent/@item.MaKH">
+                                                        <img src="~/Content/account-multiple.png" />
+                                                    </a>
+                                                
+                                            </td>
+                                            <td style="text-align : center">
+                                                <a href="~/Course/ListBuoi/@item.MaKH">
+                                                    <img src="~/Content/calendar-multiple-check.png" />
+                                                </a>
+                                            </td>
+                                        </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!--  NewTable-->
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sep21t22Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="sep21t22Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BuoiHocs" EntityType="sep21t22Model.BuoiHoc" />
+    <EntitySet Name="DiemDanhs" EntityType="sep21t22Model.DiemDanh" />
+    <EntitySet Name="GiangDays" EntityType="sep21t22Model.GiangDay" />
+    <EntitySet Name="GiangViens" EntityType="sep21t22Model.GiangVien" />
+    <EntitySet Name="KhoaHocs" EntityType="sep21t22Model.KhoaHoc" />
+    <EntitySet Name="MonHocs" EntityType="sep21t22Model.MonHoc" />
+    <EntitySet Name="SinhViens" EntityType="sep21t22Model.SinhVien" />
+    <EntitySet Name="sysdiagrams" EntityType="sep21t22Model.sysdiagram" />
+    <EntitySet Name="ThamDus" EntityType="sep21t22Model.ThamDu" />
+    <AssociationSet Name="FK_BuoiHoc_KhoaHoc" Association="sep21t22Model.FK_BuoiHoc_KhoaHoc">
+      <End Role="KhoaHoc" EntitySet="KhoaHocs" />
+      <End Role="BuoiHoc" EntitySet="BuoiHocs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiemDanh_BuoiHoc" Association="sep21t22Model.FK_DiemDanh_BuoiHoc">
+      <End Role="BuoiHoc" EntitySet="BuoiHocs" />
+      <End Role="DiemDanh" EntitySet="DiemDanhs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiemDanh_SinhVien" Association="sep21t22Model.FK_DiemDanh_SinhVien">
+      <End Role="SinhVien" EntitySet="SinhViens" />
+      <End Role="DiemDanh" EntitySet="DiemDanhs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GiangDay_GiangVien" Association="sep21t22Model.FK_GiangDay_GiangVien">
+      <End Role="GiangVien" EntitySet="GiangViens" />
+      <End Role="GiangDay" EntitySet="GiangDays" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GiangDay_MonHoc" Association="sep21t22Model.FK_GiangDay_MonHoc">
+      <End Role="MonHoc" EntitySet="MonHocs" />
+      <End Role="GiangDay" EntitySet="GiangDays" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KhoaHoc_MonHoc" Association="sep21t22Model.FK_KhoaHoc_MonHoc">
+      <End Role="MonHoc" EntitySet="MonHocs" />
+      <End Role="KhoaHoc" EntitySet="KhoaHocs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThamDu_KhoaHoc" Association="sep21t22Model.FK_ThamDu_KhoaHoc">
+      <End Role="KhoaHoc" EntitySet="KhoaHocs" />
+      <End Role="ThamDu" EntitySet="ThamDus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThamDu_SinhVien" Association="sep21t22Model.FK_ThamDu_SinhVien">
+      <End Role="SinhVien" EntitySet="SinhViens" />
+      <End Role="ThamDu" EntitySet="ThamDus" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BuoiHoc">
+    <Key>
+      <PropertyRef Name="ID_BH" />
+    </Key>
+    <Property Name="ID_BH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgayHoc" Type="DateTime" Precision="3" />
+    <Property Name="MaKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Buoi_thu" Type="Int32" />
+    <NavigationProperty Name="KhoaHoc" Relationship="sep21t22Model.FK_BuoiHoc_KhoaHoc" FromRole="BuoiHoc" ToRole="KhoaHoc" />
+    <NavigationProperty Name="DiemDanhs" Relationship="sep21t22Model.FK_DiemDanh_BuoiHoc" FromRole="BuoiHoc" ToRole="DiemDanh" />
+  </EntityType>
+  <EntityType Name="DiemDanh">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MSSV" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID_BuoiHoc" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Boolean" />
+    <NavigationProperty Name="BuoiHoc" Relationship="sep21t22Model.FK_DiemDanh_BuoiHoc" FromRole="DiemDanh" ToRole="BuoiHoc" />
+    <NavigationProperty Name="SinhVien" Relationship="sep21t22Model.FK_DiemDanh_SinhVien" FromRole="DiemDanh" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="GiangDay">
+    <Key>
+      <PropertyRef Name="ID_GiangVien" />
+      <PropertyRef Name="MaMH" />
+    </Key>
+    <Property Name="ID_GiangVien" Type="Int32" Nullable="false" />
+    <Property Name="MaMH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <NavigationProperty Name="GiangVien" Relationship="sep21t22Model.FK_GiangDay_GiangVien" FromRole="GiangDay" ToRole="GiangVien" />
+    <NavigationProperty Name="MonHoc" Relationship="sep21t22Model.FK_GiangDay_MonHoc" FromRole="GiangDay" ToRole="MonHoc" />
+  </EntityType>
+  <EntityType Name="GiangVien">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaGV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenGV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Usename" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GiangDays" Relationship="sep21t22Model.FK_GiangDay_GiangVien" FromRole="GiangVien" ToRole="GiangDay" />
+  </EntityType>
+  <EntityType Name="KhoaHoc">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MaMH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ma" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BuoiHocs" Relationship="sep21t22Model.FK_BuoiHoc_KhoaHoc" FromRole="KhoaHoc" ToRole="BuoiHoc" />
+    <NavigationProperty Name="MonHoc" Relationship="sep21t22Model.FK_KhoaHoc_MonHoc" FromRole="KhoaHoc" ToRole="MonHoc" />
+    <NavigationProperty Name="ThamDus" Relationship="sep21t22Model.FK_ThamDu_KhoaHoc" FromRole="KhoaHoc" ToRole="ThamDu" />
+  </EntityType>
+  <EntityType Name="MonHoc">
+    <Key>
+      <PropertyRef Name="MaMH" />
+    </Key>
+    <Property Name="MaMH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenMH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mota" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GiangDays" Relationship="sep21t22Model.FK_GiangDay_MonHoc" FromRole="MonHoc" ToRole="GiangDay" />
+    <NavigationProperty Name="KhoaHocs" Relationship="sep21t22Model.FK_KhoaHoc_MonHoc" FromRole="MonHoc" ToRole="KhoaHoc" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="MSSV" />
+    </Key>
+    <Property Name="MSSV" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="DiemDanhs" Relationship="sep21t22Model.FK_DiemDanh_SinhVien" FromRole="SinhVien" ToRole="DiemDanh" />
+    <NavigationProperty Name="ThamDus" Relationship="sep21t22Model.FK_ThamDu_SinhVien" FromRole="SinhVien" ToRole="ThamDu" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ThamDu">
+    <Key>
+      <PropertyRef Name="MSSV" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MSSV" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <NavigationProperty Name="KhoaHoc" Relationship="sep21t22Model.FK_ThamDu_KhoaHoc" FromRole="ThamDu" ToRole="KhoaHoc" />
+    <NavigationProperty Name="SinhVien" Relationship="sep21t22Model.FK_ThamDu_SinhVien" FromRole="ThamDu" ToRole="SinhVien" />
+  </EntityType>
+  <Association Name="FK_BuoiHoc_KhoaHoc">
+    <End Type="sep21t22Model.KhoaHoc" Role="KhoaHoc" Multiplicity="0..1" />
+    <End Type="sep21t22Model.BuoiHoc" Role="BuoiHoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhoaHoc">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="BuoiHoc">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiemDanh_BuoiHoc">
+    <End Type="sep21t22Model.BuoiHoc" Role="BuoiHoc" Multiplicity="1" />
+    <End Type="sep21t22Model.DiemDanh" Role="DiemDanh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BuoiHoc">
+        <PropertyRef Name="ID_BH" />
+      </Principal>
+      <Dependent Role="DiemDanh">
+        <PropertyRef Name="ID_BuoiHoc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiemDanh_SinhVien">
+    <End Type="sep21t22Model.SinhVien" Role="SinhVien" Multiplicity="1" />
+    <End Type="sep21t22Model.DiemDanh" Role="DiemDanh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="MSSV" />
+      </Principal>
+      <Dependent Role="DiemDanh">
+        <PropertyRef Name="MSSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GiangDay_GiangVien">
+    <End Type="sep21t22Model.GiangVien" Role="GiangVien" Multiplicity="1" />
+    <End Type="sep21t22Model.GiangDay" Role="GiangDay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GiangVien">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="GiangDay">
+        <PropertyRef Name="ID_GiangVien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GiangDay_MonHoc">
+    <End Type="sep21t22Model.MonHoc" Role="MonHoc" Multiplicity="1" />
+    <End Type="sep21t22Model.GiangDay" Role="GiangDay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonHoc">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="GiangDay">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KhoaHoc_MonHoc">
+    <End Type="sep21t22Model.MonHoc" Role="MonHoc" Multiplicity="1" />
+    <End Type="sep21t22Model.KhoaHoc" Role="KhoaHoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonHoc">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="KhoaHoc">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThamDu_KhoaHoc">
+    <End Type="sep21t22Model.KhoaHoc" Role="KhoaHoc" Multiplicity="1" />
+    <End Type="sep21t22Model.ThamDu" Role="ThamDu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhoaHoc">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="ThamDu">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThamDu_SinhVien">
+    <End Type="sep21t22Model.SinhVien" Role="SinhVien" Multiplicity="1" />
+    <End Type="sep21t22Model.ThamDu" Role="ThamDu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="MSSV" />
+      </Principal>
+      <Dependent Role="ThamDu">
+        <PropertyRef Name="MSSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

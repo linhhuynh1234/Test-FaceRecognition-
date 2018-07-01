@@ -1,0 +1,122 @@
+﻿@model IEnumerable<WebApplication2.Models.ThamDu>
+
+@{
+    ViewBag.Title = "DIEMDANH";
+    
+    Layout = "~/Views/Shared/_1Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            @*<div class="panel-heading">
+                  Các Khóa Học
+                </div>*@
+            <!-- /.panel-heading -->
+            <!--  NewTable-->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Điểm Danh Sinh Viên</h4>
+                    @*<h6 class="card-subtitle">Data table example</h6>*@
+                    <div class="table-responsive m-t-40">
+                       
+                        <form role="checkbox" action="@Url.Action("Ed", "Course")" method="post" id="fAttendance">
+                            <table id="myTable" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+
+                                        <th>MSSV</th>
+                                        <th>Họ</th>
+                                        <th>Tên</th>
+                                        <th>Trạng Thái</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.MSSV)
+                                                <input type="text" name="MaKh" value="@item.MaKH" hidden />
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.SinhVien.LastName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.SinhVien.FirstName)
+                                            </td>
+                                            <td>
+                                                @Html.CheckBox(item.MSSV, htmlAttributes: new { @id = item.MSSV, @class = "bt-switch" })
+                                            </td>
+
+
+
+                                        </tr>
+                                    }
+                                </tbody>
+
+                            </table>
+                            <div style="text-align:center">
+                                <button type="button" id="btnSave">Save</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+
+                <!--  NewTable-->
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btnSave").on("click", function (e) {
+                e.preventDefault();
+                var form = $('#fAttendance');
+                var buoiHocID = $("#bhoc").val();
+                var boxes = $('input[name=att]:checked');
+                console.log(buoiHocID);
+                console.log(boxes);
+                $.ajax({
+                    type: "POST",
+                    url: form.attr('action'),
+                    data: form.serialize(),
+                    success: function (result) {
+                        alert('Save Completed');
+
+                    },
+                    error: function (response) {
+                        $('#student-list').html(response.responseText);
+                    }
+                });
+            })
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(".bt-switch input[type='checkbox'], .bt-switch input[type='radio']").bootstrapSwitch();
+        var radioswitch = function () {
+            var bt = function () {
+                $(".radio-switch").on("switch-change", function () {
+                    $(".radio-switch").bootstrapSwitch("toggleRadioState")
+                }), $(".radio-switch").on("switch-change", function () {
+                    $(".radio-switch").bootstrapSwitch("toggleRadioStateAllowUncheck")
+                }), $(".radio-switch").on("switch-change", function () {
+                    $(".radio-switch").bootstrapSwitch("toggleRadioStateAllowUncheck", !1)
+                })
+            };
+            return {
+                init: function () {
+                    bt()
+                }
+            }
+        }();
+        $(document).ready(function () {
+            radioswitch.init()
+        });
+    </script>
+
