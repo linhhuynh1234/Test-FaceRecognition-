@@ -20,12 +20,11 @@ namespace FaceRecognition.UnitTests
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
 
-            //var test = new Mock<TestLesson>();
             var controller = new AccountController();
             var Username = "phamminhhuyen";
             var password = "croprokiwi";
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
-            //var redirectRoute = controller.Login(Username, password) as Task<ActionResult>;
+           
             var redi = await controller.Login(Username, password) as RedirectToRouteResult;
             //
             Assert.IsNotNull(redi);
@@ -55,8 +54,7 @@ namespace FaceRecognition.UnitTests
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.MonHocController();
-            //string id = "SP";
-
+  
             context.SetupGet(x => x.Session["ID"]).Returns("Software Project");
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
             ViewResult result = controller.Open() as ViewResult;
@@ -71,6 +69,7 @@ namespace FaceRecognition.UnitTests
             string id = "MH1";
 
             var result = controller.ListBuoi(id) as ViewResult;
+
             Assert.AreEqual("", result.ViewName.ToString());
         }
 
@@ -82,10 +81,10 @@ namespace FaceRecognition.UnitTests
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
 
-           
             context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
             var result = controller.ListDiemDanh("107") as RedirectToRouteResult;
+
             Assert.AreEqual("Index", result.RouteValues["Action"]);
             Assert.AreEqual("Course", result.RouteValues["controller"]);
 
@@ -97,9 +96,10 @@ namespace FaceRecognition.UnitTests
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
+
             context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
-            //  context.SetupGet(x => x.Session["MaKH"]).Returns("MH3");
+      
             var result = controller.ListDiemDanh("1071") as ViewResult;
             Assert.AreEqual("",result.ViewName);
 
@@ -112,16 +112,11 @@ namespace FaceRecognition.UnitTests
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
-            //string id = "SP";
 
             context.SetupGet(x => x.Session["MaKH"]).Returns("MH2");
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
             ViewResult result = controller.ListStudent("MH2") as ViewResult;
-            
-            //var controller = new WebApplication2.Controllers.CourseController();
-            // var Student = db.ThamDus.FirstOrDefault(x => x.MaKH == "MH2");
-            // string id = Student.ToString();
-            // var result = controller.ListStudent(id) as ViewResult;
+           
             Assert.AreEqual("", result.ViewName);
         }
 
@@ -163,7 +158,6 @@ namespace FaceRecognition.UnitTests
             var controller = new WebApplication2.Controllers.CourseController();
             var Buoithu = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH2").ID_BH;
 
-
             string id = Buoithu.ToString();
 
             var result = controller.edit(id) as RedirectToRouteResult;
@@ -188,32 +182,22 @@ namespace FaceRecognition.UnitTests
         [TestMethod]
         public void DiemDanh()
         {
-            // diem danh
+            // hien thi danh sach de diem danh thu cong diem danh
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
-            //context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
-
-            //var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
-
-            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
-
-           
+            
             var result = controller.DIEMDANH("MH1") as ViewResult;
             Assert.AreEqual("", result.ViewName.ToString());
         }
         [TestMethod]
         public async Task SynMember()
         {
-            // diem danh
+            // dong bo sinh vien
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
-            //context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
-
-            //var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
-
-            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
+           
             context.SetupGet(x => x.Session["MaGV"]).Returns("MH");
             context.SetupGet(x => x.Session["secret"]).Returns("1655478314");
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
@@ -226,14 +210,11 @@ namespace FaceRecognition.UnitTests
         [TestMethod]
         public void Ed()
         {
+            // diem danh thu cong
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
-            //context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
-
-            //var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
-
-            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
+           
             context.SetupGet(x => x.Session["MaGV"]).Returns("MH");
             context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
@@ -241,7 +222,6 @@ namespace FaceRecognition.UnitTests
             var result = controller.Ed("MH1") as RedirectToRouteResult;
             Assert.AreEqual("ListStudent", result.RouteValues["Action"]);
             
-
         }
 
         [TestMethod]
@@ -250,16 +230,12 @@ namespace FaceRecognition.UnitTests
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
-
         }
-
-
-
 
         [TestMethod]
         public async Task SyncAttendanceAsync()
         {
-            // diem danh
+            // dong bo diem danh
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
@@ -273,10 +249,7 @@ namespace FaceRecognition.UnitTests
 
             var result = await controller.syncAttendanceAsync() as RedirectToRouteResult;
             Assert.AreEqual("ListDiemDanh", result.RouteValues["Action"]);
-            //Assert.AreEqual("Course", result.RouteValues["controller"]);
         }
-
-
 
     }
 }
