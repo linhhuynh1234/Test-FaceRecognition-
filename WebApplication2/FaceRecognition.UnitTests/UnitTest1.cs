@@ -14,21 +14,18 @@ namespace FaceRecognition.UnitTests
     {
         sep21t22Entities2 db = new sep21t22Entities2();
         [TestMethod]
-        public async Task ValidateLogin()
+        public async Task Login()
         {
             //login website
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
 
             //var test = new Mock<TestLesson>();
-
             var controller = new AccountController();
             var Username = "phamminhhuyen";
             var password = "croprokiwi";
             controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
-
             //var redirectRoute = controller.Login(Username, password) as Task<ActionResult>;
-
             var redi = await controller.Login(Username, password) as RedirectToRouteResult;
             //
             Assert.IsNotNull(redi);
@@ -37,9 +34,9 @@ namespace FaceRecognition.UnitTests
         }
 
         [TestMethod]
-        public void ValidateViewCourseTeaching()
+        public void Index()
         {
-            // xem danh sach mon hoc dang day
+            // xem danh sach khoa hoc dang day
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
@@ -52,9 +49,9 @@ namespace FaceRecognition.UnitTests
         }
 
         [TestMethod]
-        public void ValidateViewLesson()
+        public void Open()
         {
-            // xem mon hoc
+            // xem mon hoc dang day
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.MonHocController();
@@ -78,21 +75,34 @@ namespace FaceRecognition.UnitTests
         }
 
         [TestMethod]
-        public void ValidateViewListAttendance()
+        public void ValidateViewListAttendance_Fail()
         {
             //xem danh sach diem danh
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
             var controller = new WebApplication2.Controllers.CourseController();
 
-            var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
+           
+            context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+            controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
+            var result = controller.ListDiemDanh("107") as RedirectToRouteResult;
+            Assert.AreEqual("Index", result.RouteValues["Action"]);
+            Assert.AreEqual("Course", result.RouteValues["controller"]);
 
-            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
+        }
+         [TestMethod]
+        public void ValidateViewListAttendance_success()
+        {
+            //xem danh sach diem danh
+            var helper = new MockHelper();
+            var context = helper.MakeFakeContext();
+            var controller = new WebApplication2.Controllers.CourseController();
+            context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+            controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
+            //  context.SetupGet(x => x.Session["MaKH"]).Returns("MH3");
+            var result = controller.ListDiemDanh("1071") as ViewResult;
+            Assert.AreEqual("",result.ViewName);
 
-            string id = lession.ToString();
-
-            var result = controller.ListDiemDanh(id) as ViewResult;
-            Assert.AreEqual("", result.ViewName.ToString());
         }
 
         [TestMethod]
@@ -132,7 +142,7 @@ namespace FaceRecognition.UnitTests
         }
 
         [TestMethod]
-        public void ValidateChangeAttendance()
+        public void Change()
         {
             //thay doi trang thai diem danh
             var controller = new WebApplication2.Controllers.CourseController();
@@ -147,7 +157,7 @@ namespace FaceRecognition.UnitTests
         }
 
         [TestMethod]
-        public void ValidateChangeAttendanceSession()
+        public void ValidateEdit()
         {
             // thay doi buoi diem danh
             var controller = new WebApplication2.Controllers.CourseController();
@@ -161,7 +171,7 @@ namespace FaceRecognition.UnitTests
         }
 
         [TestMethod]
-        public async Task LoginInvalidAccount()
+        public async Task LoginInvalidAccount_Fail()
         {
             var helper = new MockHelper();
             var context = helper.MakeFakeContext();
@@ -174,6 +184,99 @@ namespace FaceRecognition.UnitTests
             Assert.AreEqual("Login",redi.RouteValues["Action"]);
             Assert.AreEqual("Account", redi.RouteValues["controller"]);
         }
+
+        [TestMethod]
+        public void DiemDanh()
+        {
+            // diem danh
+            var helper = new MockHelper();
+            var context = helper.MakeFakeContext();
+            var controller = new WebApplication2.Controllers.CourseController();
+            //context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+
+            //var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
+
+            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
+
+           
+            var result = controller.DIEMDANH("MH1") as ViewResult;
+            Assert.AreEqual("", result.ViewName.ToString());
+        }
+        [TestMethod]
+        public async Task SynMember()
+        {
+            // diem danh
+            var helper = new MockHelper();
+            var context = helper.MakeFakeContext();
+            var controller = new WebApplication2.Controllers.CourseController();
+            //context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+
+            //var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
+
+            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
+            context.SetupGet(x => x.Session["MaGV"]).Returns("MH");
+            context.SetupGet(x => x.Session["secret"]).Returns("1655478314");
+            controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
+
+            var result = await controller.SynMember("MH1") as RedirectToRouteResult;
+            Assert.AreEqual("ListStudent", result.RouteValues["Action"]);
+            Assert.AreEqual("Course", result.RouteValues["controller"]);
+        }
+
+        [TestMethod]
+        public void Ed()
+        {
+            var helper = new MockHelper();
+            var context = helper.MakeFakeContext();
+            var controller = new WebApplication2.Controllers.CourseController();
+            //context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+
+            //var lession = db.BuoiHocs.FirstOrDefault(x => x.MaKH == "MH1").ID_BH;
+
+            //var lesstion = db.BuoiHocs.LastOrDefault(x => x.MaKH == "MH1").ID_BH;
+            context.SetupGet(x => x.Session["MaGV"]).Returns("MH");
+            context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+            controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
+
+            var result = controller.Ed("MH1") as RedirectToRouteResult;
+            Assert.AreEqual("ListStudent", result.RouteValues["Action"]);
+            
+
+        }
+
+        [TestMethod]
+        public void ExportExcel()
+        {
+            var helper = new MockHelper();
+            var context = helper.MakeFakeContext();
+            var controller = new WebApplication2.Controllers.CourseController();
+
+        }
+
+
+
+
+        [TestMethod]
+        public async Task SyncAttendanceAsync()
+        {
+            // diem danh
+            var helper = new MockHelper();
+            var context = helper.MakeFakeContext();
+            var controller = new WebApplication2.Controllers.CourseController();
+            
+            context.SetupGet(x => x.Session["MaGV"]).Returns("MH");
+            context.SetupGet(x => x.Session["secret"]).Returns("1655478314");
+            context.SetupGet(x => x.Session["MaKH"]).Returns("MH1");
+            context.SetupGet(x => x.Session["BH"]).Returns("1071");
+
+            controller.ControllerContext = new ControllerContext(context.Object, new RouteData(), controller);
+
+            var result = await controller.syncAttendanceAsync() as RedirectToRouteResult;
+            Assert.AreEqual("ListDiemDanh", result.RouteValues["Action"]);
+            //Assert.AreEqual("Course", result.RouteValues["controller"]);
+        }
+
+
 
     }
 }

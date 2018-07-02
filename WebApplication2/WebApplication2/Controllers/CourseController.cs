@@ -157,7 +157,7 @@ namespace WebApplication2.Controllers
         public ActionResult DIEMDANH(string id)
         {
 
-            Session["MaKH"] = id;
+            //Session["MaKH"] = id;
             var list = db.ThamDus.Where(x => x.MaKH == id).ToList();
 
             return View(list);
@@ -298,7 +298,7 @@ namespace WebApplication2.Controllers
         {
             // SYNC MEMBERS (can` string id cua course)
             // START
-            Session["MaKH"] = id;
+           Session["MaKH"] = id;
             var item = db.ThamDus.Where(x => x.MaKH == id).ToList();
 
             string lecid = (string)Session["MaGV"];
