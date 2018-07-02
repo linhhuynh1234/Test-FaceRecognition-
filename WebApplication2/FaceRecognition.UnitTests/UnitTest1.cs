@@ -224,13 +224,6 @@ namespace FaceRecognition.UnitTests
             
         }
 
-        [TestMethod]
-        public void ExportExcel()
-        {
-            var helper = new MockHelper();
-            var context = helper.MakeFakeContext();
-            var controller = new WebApplication2.Controllers.CourseController();
-        }
 
         [TestMethod]
         public async Task SyncAttendanceAsync()

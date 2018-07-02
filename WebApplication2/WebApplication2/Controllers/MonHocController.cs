@@ -28,8 +28,6 @@ namespace WebApplication2.Controllers
 
         public ActionResult Close()
         {
-            //int ID = (int)Session["ID"];
-            //var model = db.GiangDays.Where(x => x.Status == false && x.ID_GiangVien == ID);
             return View();
         }
     }
